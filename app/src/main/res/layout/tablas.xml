@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="16dp"
+    >
+    <TableRow
+        android:background="@color/yellow"
+        android:layout_marginBotton="8dp">
+
+        <TextView
+            android:text="@string/cantidad_suministrada"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="@string/fecha"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:layout_margin="8dp">
+        <TextView
+            android:text="@string/_500_miligramos"
+            android:padding="8dp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:text="@string/_12_17_24_06_2077"/>
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:layout_margin="8dp">
+        <TextView
+            android:text="@string/_500_miligramos"
+            android:padding="8dp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:text="@string/_00_17_24_06_2077"/>
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:layout_margin="8dp">
+        <TextView
+            android:text="@string/_500_miligramos"
+            android:padding="8dp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:text="@string/_12_17_25_06_2077"/>
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:layout_margin="8dp">
+        <TextView
+            android:text="@string/_500_miligramos"
+            android:padding="8dp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:text="@string/_00_17_25_06_2077"/>
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:layout_margin="8dp">
+        <TextView
+            android:text="@string/_500_miligramos"
+            android:padding="8dp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:text="@string/_12_17_26_06_2077"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:layout_margin="8dp">
+        <TextView
+            android:text="@string/_500_miligramos"
+            android:padding="8dp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:text="@string/_00_17_27_06_2077"/>
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/outlinedButton"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        />
+
+</TableLayout>
